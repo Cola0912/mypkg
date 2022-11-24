@@ -1,0 +1,22 @@
+[0.382s] Invoking command in '/home/shusei/ros2_ws/src/mypkg': PYTHONPATH=/home/shusei/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/shusei/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/shusei/ros2_ws/src/mypkg/install/mypkg --record /home/shusei/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.502s] running egg_info
+[0.502s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.502s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.502s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.502s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.502s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.525s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.525s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.526s] running build
+[0.526s] running build_py
+[0.526s] running install
+[0.526s] running install_lib
+[0.527s] running install_data
+[0.528s] running install_egg_info
+[0.529s] removing '/home/shusei/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.529s] Copying build/mypkg/mypkg.egg-info to /home/shusei/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.529s] running install_scripts
+[0.539s] Installing listener script to /home/shusei/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.540s] Installing talker script to /home/shusei/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.540s] writing list of installed files to '/home/shusei/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.555s] Invoked command in '/home/shusei/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/shusei/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/shusei/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/shusei/ros2_ws/src/mypkg/install/mypkg --record /home/shusei/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
