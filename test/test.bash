@@ -13,5 +13,3 @@ cat /tmp/mypkg.log |
 grep 'Listen: 10'
 
 echo $?
-[ "$?" = 0 ] && echo だいじょぶだぁ
-
