@@ -3,18 +3,22 @@
 
 import rclpy                     #ROS2のクライアントのためのライブラリ
 from rclpy.node import Node      #ノードを実装するためのNodeクラス（クラスは第10回で）
-from person_msg.srv import Query
+from std_msgs.msg import Int16
 
-
-def cb(request, response):          #17行目で定期実行されるコールバック関数
-	if request.name == "akiya shusei":
-		response.age = 20
-	else:
-		response.age = 255
-
-	return response
+class Talker():
+    def __init__(self):
+        self.pub = node.create_publisher(Int16, "countup", 10)
+        self.n = 0
 
 rclpy.init()
 node = Node("talker")            #ノード作成（nodeという「オブジェクト」を作成）
-srv = node.create_service(Query, "query", cb)
+talker = Talker()
+
+def cb():              #関数内のnやpubをtalkerのものに変更
+    msg = Int16()
+    msg.data = talker.n
+    talker.pub.publish(msg)
+    talker.n += 1
+
+node.create_timer(0.5, cb)
 rclpy.spin(node)            #実行（無限ループ）
