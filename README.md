@@ -16,7 +16,9 @@ https://docs.ros.org/
 インストール後、本レポジトリを任意のワークスペースにクローンしてください。
 ```bash
   git clone https://github.com/Cola0912/mypkg.git
+  cd ~/ros2_ws
   colcon build
+  source ~/.bashrc
 ```
 ### 開発環境
 * Ubuntu20.04

@@ -8,28 +8,28 @@ from person_msg.srv import Query
 def main():
     rclpy.init()
     node = Node("listener")
-    client = node.create_client(Query, 'query') #サービスのクライアントの作成
-    while not client.wait_for_service(timeout_sec=1.0): #サービスの待ち待ち
+    client = node.create_client(Query, 'query')
+    while not client.wait_for_service(timeout_sec=1.0):
         node.get_logger().info('待機中')
 
     req = Query.Request()
     req.name = "akiya shusei"
-    future = client.call_async(req) #非同期でサービスを呼び出し
+    future = client.call_async(req)
 
     while rclpy.ok():
-        rclpy.spin_once(node) #一回だけサービスを呼び出したら終わり
-        if future.done():     #終わっていたら
+        rclpy.spin_once(node)
+        if future.done():
             try:
-                response = future.result() #結果を受取り
+                response = future.result()
             except:
                 node.get_logger().info('呼び出し失敗')
-            else: #このelseは「exceptじゃなかったら」という意味のelse
+            else:
                 node.get_logger().info("age: {}".format(response.age))
 
-            break #whileを出る
+            break
 
-    node.destroy_node() #ノードの後始末
-    rclpy.shutdown()    #ノードの後始末
+    node.destroy_node()
+    rclpy.shutdown()
 
-if __name__ == '__main__': #ライブラリと区別するためのPythonの記法
+if __name__ == '__main__':
     main()
