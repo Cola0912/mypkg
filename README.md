@@ -13,13 +13,13 @@ https://docs.ros.org/
 インストール後、本レポジトリを任意のワークスペースにクローンしてください。
 ```bash
   git clone https://github.com/Cola0912/mypkg.git
-  cd mypkg
+  colcon build
 ```
 ### 開発環境
 * Ubuntu20.04
 * ROS2 Foxy
 * Python
-  * テスト済み: 3.7 ~ 3.10
+
 
 # listenerコマンド
 標準入力から読み込んだ数字を足すことができるコマンド。
@@ -29,9 +29,10 @@ https://docs.ros.org/
 
 
 ## テスト環境
-* Ubuntu20 及びWSL内 Ubuntu20 
-* ROS2 Foxy
-* Python3.7 ~ 3.10
+* Ubuntu22.04
+* ROS2 Humble
+
+またこれらのテストには[上田　隆一先生のコンテナ](https://hub.docker.com/layers/ryuichiueda/ubuntu22.04-ros2/latest/images/sha256-0e1773bc6f12b57172c8818aac36aeb97ca13269028028d49ad5f6f8cc0d6204?context=explore)を使用しています。
 
 ## ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が許可されます。
