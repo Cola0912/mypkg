@@ -28,11 +28,19 @@ https://docs.ros.org/
 # ノード
 
 ## listener
-countupトピックを受け取り表示する
+countupトピックを受け取り表示する。
+
 countupトピックがない場合、待機。
+
+'''bash
+  ros2 run mypkg listener
+'''
 
 ## talker
 実行されてから0.5秒おきに変数に１を足す。
+'''bash
+  ros2 run mypkg talker
+'''
 
 ## トピック
 ### countup
