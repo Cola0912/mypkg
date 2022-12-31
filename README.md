@@ -36,7 +36,7 @@ https://docs.ros.org/
 ## トピック
 ### countup
 tallkerが実行されてから0.５秒おきに１ずつ増えた変数が送られている
-[![industrial_ci](https://github.com/Cola0912/mypkg/blob/master/rosgraph.svg)]
+[industrial_ci](https://github.com/Cola0912/mypkg/blob/master/rosgraph.svg)
 
 # テスト環境
 * Ubuntu22.04
