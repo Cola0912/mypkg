@@ -28,14 +28,15 @@ https://docs.ros.org/
 # ノード
 
 ## listener
-標準入力から読み込んだ数字を足すことができるコマンド。
+countupトピックを受け取り表示する
+countupトピックがない場合、待機。
 
 ## talker
-標準入力から読み込んだ数字を足すことができるコマンド。
+実行されてから0.5秒おきに変数に１を足す。
 
 ## トピック
 ### countup
-tallkerが実行されてから0.５秒おきに１ずつ増えた変数が送られている
+talkerからlistenerに対して0.5秒おきに変数を送るための流路。
 ![industrial_ci](https://github.com/Cola0912/mypkg/blob/master/rosgraph.svg)
 
 # テスト環境
