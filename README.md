@@ -33,8 +33,8 @@ https://docs.ros.org/
 ## talker
 標準入力から読み込んだ数字を足すことができるコマンド。
 
-# トピック
-## countup
+## トピック
+### countup
 tallkerが実行されてから0.５秒おきに１ずつ増えた変数が送られている
 [![industrial_ci](https://github.com/Cola0912/mypkg/blob/master/rosgraph.svg)]
 
