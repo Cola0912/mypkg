@@ -1,14 +1,14 @@
-# ROS2
+# ROS2_listener_&_talker
 ![test](https://github.com/Cola0912/mypkg/actions/workflows/test.yml/badge.svg)
-
+2022年のロボットシステム学の講義内で製作したプログラム
 提出用
 
-講義の中で作ったものを筆頭に思いついたコマンドを追加していく。
 
-### 使う準備
+### 動作確認のための準備
+ROS2をインストールしてください。
 ```bash
-  git clone https://github.com/Cola0912/RoboSys2022.git
-  cd RoboSys2022
+  git clone https://github.com/Cola0912/mypkg.git
+  cd 
 ```
 ### 必要なソフトウェア
 * Python
