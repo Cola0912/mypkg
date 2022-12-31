@@ -26,7 +26,7 @@ https://docs.ros.org/
 * Python 3.8.10
 
 
-# listenetノード
+# listenerノード
 標準入力から読み込んだ数字を足すことができるコマンド。
 
 # talkerノード
