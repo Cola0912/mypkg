@@ -10,9 +10,10 @@ ROS2のインストールがまだの人は以下のURLの手順に従いイン�
 
 https://docs.ros.org/
 
+インストール後、本レポジトリを任意のワークスペースにクローンしてください。
 ```bash
   git clone https://github.com/Cola0912/mypkg.git
-  cd 
+  cd mypkg
 ```
 ### 開発環境
 * Ubuntu20.04
