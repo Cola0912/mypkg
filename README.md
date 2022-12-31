@@ -7,12 +7,16 @@
 
 ### 動作確認のための準備
 ROS2のインストールがまだの人は以下のURLの手順に従いインストールしてください。
+
 https://docs.ros.org/
+
 ```bash
   git clone https://github.com/Cola0912/mypkg.git
   cd 
 ```
-### 必要なソフトウェア
+### 開発環境
+* Ubuntu20.04
+* ROS2 Foxy
 * Python
   * テスト済み: 3.7 ~ 3.10
 
