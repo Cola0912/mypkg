@@ -34,6 +34,12 @@ countupトピックがない場合、待機。
 ```bash
   ros2 run mypkg listener
 ```
+すでにtalkerが動いていたときの実行結果
+```bash
+  [INFO] [1672490453.017639528] [listener]: Listen: 0
+  [INFO] [1672490456.000637224] [listener]: Listen: 1
+  [INFO] [1672490459.000537012] [listener]: Listen: 2
+```
 
 ## talker
 実行されてから0.5秒おきに変数に１を足す。
