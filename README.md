@@ -1,11 +1,13 @@
 # ROS2_listener_&_talker
 ![test](https://github.com/Cola0912/mypkg/actions/workflows/test.yml/badge.svg)
+
 2022年のロボットシステム学の講義内で製作したプログラム
 提出用
 
 
 ### 動作確認のための準備
-ROS2をインストールしてください。
+ROS2のインストールがまだの人は以下のURLの手順に従いインストールしてください。
+https://docs.ros.org/
 ```bash
   git clone https://github.com/Cola0912/mypkg.git
   cd 
