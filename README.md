@@ -51,7 +51,7 @@ countupトピックがない場合、待機。
 
 ## トピック
 ### countup
-talkerからlistenerに対して0.5秒おきに変数を送るための流路。
+talkerからlistenerに対して0.5秒おきにメッセージを送るための流路。
 ![industrial_ci](https://github.com/Cola0912/mypkg/blob/master/rosgraph.svg)
 
 # テスト環境
