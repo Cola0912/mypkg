@@ -28,7 +28,7 @@ https://docs.ros.org/
 # ノード
 
 ## listener
-countupトピックを受け取り表示する。
+countupトピックを受け取った後、表示する。
 countupトピックがない場合、待機。
 
 ```bash
