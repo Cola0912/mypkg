@@ -25,11 +25,12 @@ https://docs.ros.org/
 * ROS2 Foxy
 * Python 3.8.10
 
+# ノード
 
-# listenerノード
+## listener
 標準入力から読み込んだ数字を足すことができるコマンド。
 
-# talkerノード
+## talker
 標準入力から読み込んだ数字を足すことができるコマンド。
 
 
