@@ -20,14 +20,17 @@ https://docs.ros.org/
 * Python
   * テスト済み: 3.7 ~ 3.10
 
-# plusコマンド
+# listenerコマンド
+標準入力から読み込んだ数字を足すことができるコマンド。
 
+# talkerコマンド
 標準入力から読み込んだ数字を足すことができるコマンド。
 
 
-
 ## テスト環境
-* Ubuntu20 及びWSL内 Ubuntu20 のPython3.7 ~ 3.10
+* Ubuntu20 及びWSL内 Ubuntu20 
+* ROS2 Foxy
+* Python3.7 ~ 3.10
 
 ## ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が許可されます。
