@@ -30,7 +30,7 @@ https://docs.ros.org/
 
 ## listener
 countupを受け取った後、表示する。
-// countupがない場合、待機。
+[](countupがない場合、待機。)
 
 ```bash
   ros2 run mypkg listener
