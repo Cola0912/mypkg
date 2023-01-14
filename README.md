@@ -14,6 +14,7 @@ ROS2のインストールがまだの人は以下のURLの手順に従いイン�
 https://docs.ros.org/
 
 インストール後、本レポジトリを任意のワークスペースにクローンしてください。
+以下のコマンドを実行することで準備が整います。
 ```bash
   git clone https://github.com/Cola0912/mypkg.git
   cd ~/ros2_ws
